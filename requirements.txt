@@ -1,0 +1,9 @@
+pytorch_lightning==0.7.6
+pandas==1.1.1
+numpy==1.18.5
+seaborn==0.9.0
+plotly==4.3.0
+torchvision==0.6.0
+forgi==2.0.2
+matplotlib==3.0.2
+torch==1.0.1.post2

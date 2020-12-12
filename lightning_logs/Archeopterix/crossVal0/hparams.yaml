@@ -1,0 +1,19 @@
+FIXED_LEN: 100
+MAX_ROLL: 25
+PREFIX_prob: 0.3
+Positive_rate: 0.5
+ROLL_prob: 0.2
+batch_size: 48
+epochs: 250
+groups: 4
+input_dim1: 22
+input_dim2: 6
+main_hidden1: 136
+main_hidden2: 80
+optimizer:
+  learning_rate: 0.0003
+  weight_decay: 0
+second_hidden: 16
+test_data: ../Data/small_Test_particle.csv
+train_data: ../Data/small_Train_particle_0.csv
+val_data: ../Data/small_Val_particel_0.csv
